@@ -3,9 +3,9 @@ import qrcode
 
 data = input('Enter the text or URL:').strip()
 while True:
-
+    format_of_image = ('.png', '.jpg')
     filename = input('Enter the filename: ').strip()
-    if filename.endswith(('.png','.jpg')):
+    if filename.endswith(format_of_image):
         break
     print('enter file name as filename.jpg or filename.png')
 
