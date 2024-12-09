@@ -4,8 +4,8 @@ import datetime
 import schedule
 import time
 
-source_dir = "C:/Users/Tim/Pictures/Screenshots"
-destination_dir = "C:/Users/Tim/Desktop/Backups"
+source_dir = "C:\Users\acer\OneDrive\Pictures"
+destination_dir = "C:\Users\acer\OneDrive\Documents"
 
 def copy_folder_to_directory(source, dest):
     today = datetime.date.today()
